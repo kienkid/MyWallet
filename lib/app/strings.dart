@@ -34,7 +34,7 @@ class S {
   static const _t = {'en': _en, 'vi': _vi};
 
   static const _en = <String, String>{
-    'appName': 'Pocket Ledger',
+    'appName': 'My Wallet',
     'tabHome': 'Home', 'tabTransactions': 'Transactions', 'tabDebts': 'Debts', 'tabReports': 'Reports',
     'tabSettings': 'Settings',
     'income': 'Income', 'expense': 'Expense', 'transfer': 'Transfer', 'debt': 'Loans & debts',
@@ -123,11 +123,11 @@ class S {
     'importNow': 'Import', 'runReport': 'Show report', 'importDone': 'Import complete', 'reportOnlyDone': 'Report (nothing written)',
     'rowErrors': 'Row errors', 'row': 'row',
     'about': 'About', 'version': 'Version',
-    'aboutText': 'Pocket Ledger is a personal income and expense tracker that works fully offline. Your data stays in a local database on this phone; nothing is sent to the internet. Use CSV export regularly to keep a backup.',
+    'aboutText': 'My Wallet is a personal income and expense tracker that works fully offline. Your data stays in a local database on this phone; nothing is sent to the internet. Use CSV export regularly to keep a backup.',
     // default category names
     'cat_food': 'Food', 'cat_transport': 'Transportation', 'cat_shopping': 'Shopping', 'cat_bills': 'Bills',
     'cat_health': 'Health', 'cat_education': 'Education', 'cat_entertainment': 'Entertainment', 'cat_other': 'Other',
-    'cat_salary': 'Salary', 'cat_bonus': 'Bonus', 'cat_investment': 'Investment', 'cat_gift': 'Gift',
+    'cat_salary': 'Salary', 'cat_bonus': 'Bonus', 'cat_investment': 'Investment', 'cat_gift': 'Gift','cat_sale': 'Sale','cat_family': 'Family','cat_donations': 'Donation','cat_relationship': 'Relationship',
     'sub_electricity': 'Electricity', 'sub_water': 'Water', 'sub_internet': 'Internet', 'sub_phone': 'Phone',
     'sub_rent': 'Rent', 'sub_gas': 'Gas', 'sub_fuel': 'Fuel', 'sub_parking': 'Parking', 'sub_ride': 'Ride-hailing',
     'sub_groceries': 'Groceries', 'sub_eating_out': 'Eating out', 'sub_coffee': 'Coffee',
@@ -170,7 +170,7 @@ class S {
   };
 
   static const _vi = <String, String>{
-    'appName': 'Sổ Thu Chi',
+    'appName': 'My Wallet',
     'tabHome': 'Tổng quan', 'tabTransactions': 'Giao dịch', 'tabDebts': 'Sổ nợ', 'tabReports': 'Báo cáo',
     'tabSettings': 'Cài đặt',
     'income': 'Thu', 'expense': 'Chi', 'transfer': 'Chuyển tiền', 'debt': 'Vay & nợ',
@@ -256,10 +256,10 @@ class S {
     'importNow': 'Nhập', 'runReport': 'Xem báo cáo', 'importDone': 'Nhập hoàn tất', 'reportOnlyDone': 'Báo cáo (không ghi dữ liệu)',
     'rowErrors': 'Lỗi theo dòng', 'row': 'dòng',
     'about': 'Giới thiệu', 'version': 'Phiên bản',
-    'aboutText': 'Sổ Thu Chi là ứng dụng ghi chép thu chi cá nhân hoạt động hoàn toàn ngoại tuyến. Dữ liệu được lưu trong cơ sở dữ liệu trên điện thoại này và không gửi lên internet. Hãy xuất CSV định kỳ để sao lưu.',
+    'aboutText': 'My Wallet là ứng dụng ghi chép thu chi cá nhân hoạt động hoàn toàn ngoại tuyến. Dữ liệu được lưu trong cơ sở dữ liệu trên điện thoại này và không gửi lên internet. Hãy xuất CSV định kỳ để sao lưu.',
     'cat_food': 'Ăn uống', 'cat_transport': 'Di chuyển', 'cat_shopping': 'Mua sắm', 'cat_bills': 'Hóa đơn',
     'cat_health': 'Sức khỏe', 'cat_education': 'Giáo dục', 'cat_entertainment': 'Giải trí', 'cat_other': 'Khác',
-    'cat_salary': 'Lương', 'cat_bonus': 'Thưởng', 'cat_investment': 'Đầu tư', 'cat_gift': 'Quà tặng',
+    'cat_salary': 'Lương', 'cat_bonus': 'Thưởng', 'cat_investment': 'Đầu tư', 'cat_gift': 'Quà tặng','cat_sale': 'Bán đồ','cat_family': 'Gia đình','cat_donations': 'Quyên góp','cat_relationship': 'Mối quan hệ',
     'sub_electricity': 'Điện', 'sub_water': 'Nước', 'sub_internet': 'Internet', 'sub_phone': 'Điện thoại',
     'sub_rent': 'Thuê nhà', 'sub_gas': 'Gas', 'sub_fuel': 'Xăng', 'sub_parking': 'Gửi xe', 'sub_ride': 'Grab/Be',
     'sub_groceries': 'Đi chợ', 'sub_eating_out': 'Ăn ngoài', 'sub_coffee': 'Cà phê',
