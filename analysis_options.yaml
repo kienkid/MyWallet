@@ -1,0 +1,12 @@
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: true            # prevents leaking financial values to logs
+    prefer_const_constructors: true
+    unawaited_futures: true
+    always_declare_return_types: true
